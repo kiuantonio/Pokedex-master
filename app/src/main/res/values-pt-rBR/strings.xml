@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="description">Descrição</string>
+    <string name="hp">HP</string>
+    <string name="speed">Velocidade</string>
+    <string name="attack">Ataque</string>
+    <string name="defense">Defesa</string>
+</resources>

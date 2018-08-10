@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetalheActivity">
+
+
+    <TextView
+        style="@style/label_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="#149: Dragonite" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dragonite149" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        style="@style/nomePoke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description" />
+
+    <view style="@style/Line_breaker" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        tools:text="WRYYYYYYYY" />
+
+    <View style="@style/Line_breaker" />
+
+    <TextView
+        style="@style/label_detail"
+        android:text="Abilities" />
+
+    <View style="@style/Line_breaker" />
+
+    <LinearLayout style="@style/container_abilities">
+
+        <LinearLayout style="@style/container_abilities_child">
+            <TextView
+                style="@style/abilities_field_title"
+                android:text="20" />
+
+            <TextView
+                style="@style/abilities_field_subtitle"
+                android:text="@string/hp" />
+
+        </LinearLayout>
+        <LinearLayout style="@style/container_abilities_child">
+            <TextView
+                style="@style/abilities_field_title"
+                android:text="20" />
+
+            <TextView
+                style="@style/abilities_field_subtitle"
+                android:text="@string/speed" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/Line_breaker" />
+
+    <LinearLayout style="@style/container_abilities">
+
+        <LinearLayout style="@style/container_abilities_child">
+            <TextView
+                style="@style/abilities_field_title"
+                android:text="20" />
+
+            <TextView
+                style="@style/abilities_field_subtitle"
+                android:text="@string/attack" />
+
+        </LinearLayout>
+        <LinearLayout style="@style/container_abilities_child">
+            <TextView
+                style="@style/abilities_field_title"
+                android:text="20" />
+
+            <TextView
+                style="@style/abilities_field_subtitle"
+                android:text="@string/defense" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
